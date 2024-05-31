@@ -1,5 +1,17 @@
 # Welcome to Flights Service
 
+## Role Based Architecture
+  -src/
+      index.js //server
+      models/
+      controllers/
+      middleware/
+      services/
+      utils/
+      config/
+      repository/
+  - tests/ [later]
+
 ## Project Setup
 - clone the project on your local
 - Execute `npm install` on the same path as of your root directory of teh downloaded project
