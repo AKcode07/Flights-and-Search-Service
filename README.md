@@ -1,8 +1,9 @@
 # Welcome to Flights Service
 
 ## Role Based Architecture
+  ```
   -src/
-      index.js //server
+      index.js [server]
       models/
       controllers/
       middleware/
@@ -11,6 +12,7 @@
       config/
       repository/
   - tests/ [later]
+  ```
 
 ## Project Setup
 - clone the project on your local
