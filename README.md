@@ -61,7 +61,14 @@ and then execute
 ```
 
 ```
-
 npx sequelize model:generate --name Airport --attributes name:String,address:String,cityId:integer
+```
+
+To add Default data Seeder in Airports db run this command:
+
+```
+npx sequelize seed:generate --name add-airports
+
+npx sequelize db:seed:all [Use after adding dummy data in seeders file]
 
 ```
