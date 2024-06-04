@@ -78,4 +78,6 @@ For Airplane Model:
 npx sequelize model:generate --name Airplane --attributes modelNumber:String,capacity:integer
 
 npx sequelize db:migrate
+
+Add Seeder: npx sequelize seed:generate --name add-airplanes
 ```
