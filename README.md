@@ -81,5 +81,5 @@ npx sequelize db:migrate
 
 Add Seeder: npx sequelize seed:generate --name add-airplanes
 
-npx sequelize db:seed:all [Use after adding dummy data in seeders file]
+npx sequelize db:seed --seed my_seeder_file.js[Use after adding dummy data in seeders file]
 ```
