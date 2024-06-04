@@ -80,4 +80,6 @@ npx sequelize model:generate --name Airplane --attributes modelNumber:String,cap
 npx sequelize db:migrate
 
 Add Seeder: npx sequelize seed:generate --name add-airplanes
+
+npx sequelize db:seed:all [Use after adding dummy data in seeders file]
 ```
