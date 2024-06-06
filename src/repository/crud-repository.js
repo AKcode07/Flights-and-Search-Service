@@ -1,3 +1,5 @@
+// Used as common repository to create new repository models
+
 class CrudRespository {
     constructor(model) {
         this.model = model;
